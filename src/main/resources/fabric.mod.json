@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "wwwtd",
+  "version": "${version}",
+  "name": "Whatever we want to do",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/wwwtd/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "randname.arm.client.ArmClient"
+    ],
+    "main": [
+      "randname.arm.Arm"
+    ]
+  },
+  "mixins": [
+    "wwwtd.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.0",
+    "fabric": "*",
+    "minecraft": "1.18.1"
+  }
+}
