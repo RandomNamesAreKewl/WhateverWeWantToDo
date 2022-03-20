@@ -1,11 +1,12 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "randname.wwwtd.mixin",
+  "package": "randname.arm.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
   ],
   "client": [
+    "XboxTitlescreenMixin"
   ],
   "injectors": {
     "defaultRequire": 1
